@@ -1,7 +1,6 @@
 ![MSmisc-platform-macos](https://img.shields.io/badge/platform-macOS-lightgrey.svg)
 ![MSmisc-code-shell](https://img.shields.io/badge/code-shell-yellow.svg)
 [![MSmisc-depend-minsign](https://img.shields.io/badge/dependency-minisign%200.7-green.svg)](https://github.com/jedisct1/minisign)
-[![MSmisc-depend-tnote](https://img.shields.io/badge/dependency-terminal--notifier%201.6.3-green.svg)](https://github.com/alloy/terminal-notifier)
 [![MSmisc-license](http://img.shields.io/badge/license-MIT+-blue.svg)](https://github.com/JayBrown/minisign-misc/blob/master/license.md)
 
 # Minisign Miscellanea <img src="https://github.com/JayBrown/minisign-misc/blob/master/img/jb-img.png" height="20px"/>
@@ -10,12 +9,9 @@
 ![ms-verify-screengrab](https://github.com/JayBrown/minisign-misc/blob/master/img/minisign-verify-grab.png)
 
 ## Prerequisites
-Install using [Homebrew](http://brew.sh) with `brew install <software-name>` (or with a similar manager)
+Install using [Homebrew](http://brew.sh) with `brew install minisign` (or with a similar manager)
 
 * [minisign](https://github.com/jedisct1/minisign)
-* [terminal-notifier](https://github.com/alloy/terminal-notifier)
-
-You need to have Spotlight enabled for `mdfind` to locate the terminal-notifier.app on your volume; if you don't install terminal-notifier, or if you have deactivated Spotlight, the minisign scripts will call notifications via AppleScript instead
 
 Because Minisign Miscellanea use the macOS Notification Center, the minimum Mac OS requirement is **OS X 10.8 (Mountain Lion)**.
 
